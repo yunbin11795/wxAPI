@@ -5,9 +5,9 @@
 
 import {GraphQLString} from 'graphql';
 
-export default   {
+export const Book = {
     type: GraphQLString,
     resolve() {
         return 'world';
     },
-}
+};
